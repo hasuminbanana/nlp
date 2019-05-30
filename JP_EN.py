@@ -10,7 +10,7 @@ import requests
 import webbrowser
 
 def openff():
-    # This def open firefox browser.
+    # This def open chrome browser.
     Jpsen = input("英語にしたい日本語を入力してください: ")
     url = "https://script.google.com/macros/s/AKfycby_dU9RymFwgEsd6txZAhA68MQAnUQxXeRnbVia_V0U8fv-Gkoy/exec?text=" + Jpsen + "&source=ja&target=en"
     browser = webbrowser.get('chrome')
